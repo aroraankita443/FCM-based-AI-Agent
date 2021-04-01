@@ -1,0 +1,138 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_moods
+- story: Untitled Story
+  steps:
+  - intent: mood_stress
+  - action: utter_cheerup
+  - action: utter_games
+  - action: utter_lastweek
+- story: Untitled Story
+  steps:
+  - intent: mood_great
+  - action: utter_great
+  - action: utter_lastweek
+- story: Untitled Story
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheerup
+  - action: utter_lastweek
+- story: Untitled Story
+  steps:
+  - intent: several
+  - action: utter_sorry
+  - action: utter_knowtoask
+- story: Untitled Story
+  steps:
+  - intent: rare
+  - action: utter_nice
+  - action: utter_knowtoask
+- story: Untitled Story
+  steps:
+  - intent: forget
+  - action: utter_normal
+  - action: utter_knowtoask
+- story: Untitled Story
+  steps:
+  - intent: whyask
+  - action: utter_makesure
+- story: Untitled Story
+  steps:
+  - intent: thanksask
+  - action: utter_dutyask
+- story: Untitled Story
+  steps:
+  - intent: whatcbt
+  - action: utter_cbtdef
+- story: Untitled Story
+  steps:
+  - intent: mycomp
+  - action: utter_yes
+- story: Untitled Story
+  steps:
+  - intent: bot
+  - action: utter_stillcomp
+- story: Untitled Story
+  steps:
+  - intent: helphow
+  - action: utter_ques
+- story: Untitled Story
+  steps:
+  - intent: friend
+  - action: utter_ques
+- story: Untitled Story
+  steps:
+  - intent: affirm
+  - action: utter_thanks
+  - action: utter_q1
+- story: Untitled Story
+  steps:
+  - intent: yc
+  - action: utter_attentiongame
+  - action: utter_q2
+- story: Untitled Story
+  steps:
+  - intent: nc
+  - action: utter_nice
+  - action: utter_q2
+- story: Untitled Story
+  steps:
+  - intent: yi
+  - action: utter_interviewgame
+  - action: utter_q3
+- story: Untitled Story
+  steps:
+  - intent: ni
+  - action: utter_nice
+  - action: utter_q3
+- story: Untitled Story
+  steps:
+  - intent: ji
+  - action: utter_nice
+  - action: utter_q3
+- story: Untitled Story
+  steps:
+  - intent: ys
+  - action: utter_stressgame
+  - action: utter_surveycomplete
+- story: Untitled Story
+  steps:
+  - intent: ns
+  - action: utter_nice
+  - action: utter_surveycomplete
+- story: Untitled Story
+  steps:
+  - intent: SOS
+  - action: utter_help
+  - action: utter_notalone
+- story: Story from Conversation ID e45ae42735bc48049cfa39705027c8c3
+  steps:
+  - action: utter_greet
+  - intent: greet
+  - action: utter_lastweek
+  - intent: rare
+  - action: utter_nice
+  - action: utter_knowtoask
+  - intent: whyask
+  - action: utter_makesure
+  - intent: mycomp
+  - action: utter_yes
+- story: Untitled Story
+  steps:
+  - intent: yi
+  - action: utter_interviewgame
+  - action: utter_q3
+- story: Untitled Story
+  steps:
+  - intent: ni
+  - action: utter_nice
+  - action: utter_q3
+- story: Untitled Story
+  steps:
+  - intent: ji
+  - action: utter_okay
+  - action: utter_q3
